@@ -1256,4 +1256,175 @@ p {
   font-weight: 400;
   line-height: 50px;
   padding-top: 10px;
+}
+.trust-section .slider-bt-ngroup {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 150px;
+  width: 100%;
+}
+.trust-section .slider-bt-ngroup .slider-btn {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.35s;
+}
+.trust-section .slider-bt-ngroup .slider-btn svg {
+  fill: rgba(19, 20, 26, 0.16);
+  transition: 0.35s;
+}
+.trust-section .slider-bt-ngroup .slider-btn:hover {
+  border-color: var(--primary-color1);
+  background-color: var(--primary-color1);
+}
+.trust-section .slider-bt-ngroup .slider-btn:hover i {
+  color: #fff;
+}
+.trust-section .company-logo img {
+  background: #FFF;
+  border-radius: 5px;
+  box-shadow: 3px 4px 30px 0px rgba(136, 136, 136, 0.1);
+  padding: 20px 20px 20px 20px;
+}
+
+/*--- footer section --- */
+.footer-section {
+  background-color: var(--primary-color4);
+}
+.footer-section .footer-top {
+  padding: 100px 0;
+}
+.footer-section .footer-top .footer-widget .footer-logo a {
+  color: var(--primary-color1);
+  font-family: var(--font-HelveticaNenu);
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.footer-section .footer-top .footer-widget p {
+  color: var(--white-color);
+  font-family: var(--font-jost);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.footer-section .footer-top .footer-widget .payment-area h5 {
+  color: var(--white-color);
+  font-family: var(--font-HelveticaNenu);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 20px;
+}
+.footer-section .footer-top .footer-widget .payment-area ul {
+  display: flex;
+  gap: 20px;
+}
+.footer-section .footer-top .footer-widget .payment-area ul li {
+  background-color: var(--white-color);
+  border-radius: 2px;
+  padding: 2px 10px 2px 10px;
+}
+.footer-section .footer-top .footer-widget .widget-title {
+  margin-bottom: 30px;
+}
+.footer-section .footer-top .footer-widget .widget-title h5 {
+  color: var(--white-color);
+  font-family: var(--font-HelveticaNenu);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.footer-section .footer-top .footer-widget ul li {
+  margin-bottom: 18px;
+}
+.footer-section .footer-top .footer-widget ul li a {
+  color: #EEE;
+  font-family: var(--font-HelveticaNenu);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  align-items: center;
+  gap: 10px;
+}
+.footer-section .footer-top .footer-widget ul li a span {
+  padding: 10px 0px 10px;
+}
+.footer-section .footer-top .footer-widget .social-media ul {
+  display: flex;
+  gap: 20px;
+}
+.footer-section .footer-btm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #74767E;
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .footer-section .footer-btm {
+    padding: 20px 3%;
+  }
+}
+@media (max-width: 1399px) {
+  .footer-section .footer-btm {
+    padding: 20px 3%;
+  }
+}
+@media (max-width: 1199px) {
+  .footer-section .footer-btm {
+    padding: 20px 2%;
+  }
+}
+@media (max-width: 991px) {
+  .footer-section .footer-btm {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+}
+.footer-section .footer-btm .copyright-area {
+  padding-top: 30px;
+}
+.footer-section .footer-btm .copyright-area p {
+  color: var(--white-color);
+  font-family: var(--font-HelveticaNenu);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-section .footer-btm .copyright-area p a {
+  color: var(--primary-color1);
+  font-family: var(--font-HelveticaNenu);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-section .footer-btm .right-area {
+  padding-top: 30px;
+}
+.footer-section .footer-btm .right-area p {
+  color: #FFF;
+  text-align: right;
+  font-family: var(--font-HelveticaNenu);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  justify-content: end;
 }/*# sourceMappingURL=style.css.map */
