@@ -1,2 +1,2 @@
 # i-mybos
-Khadija Tasnim
+Khadija Tasnim Khushi
