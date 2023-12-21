@@ -95,9 +95,9 @@
 
 
     var swiper = new Swiper(".testimonial-slider3", {
-        slidesPerView: 3,
+        slidesPerView: 2,
         speed: 1500,
-        spaceBetween: 20,
+        spaceBetween: 10,
         
         
         autoplay: {
@@ -122,7 +122,7 @@
                 slidesPerView: 1,
             },
             992: {
-                slidesPerView: 1,
+                slidesPerView: 2,
             },
             1200: {
                 slidesPerView: 2,

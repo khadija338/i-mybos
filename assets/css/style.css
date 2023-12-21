@@ -1201,16 +1201,16 @@ p {
   position: relative;
   padding: 50px;
 }
-.feedback-section .service-card .card-top-img {
+.feedback-section .service-card .service-content .card-top-img {
   position: absolute;
   right: 80px;
   top: 0;
 }
-.feedback-section .service-card .service-image {
+.feedback-section .service-card .service-content .service-image {
   display: flex;
   gap: 30px;
 }
-.feedback-section .service-card .service-image .content h6 {
+.feedback-section .service-card .service-content .service-image .content h6 {
   color: var(--text-color);
   font-family: var(--font-HelveticaNenu);
   font-size: 20px;
@@ -1218,7 +1218,7 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
-.feedback-section .service-card .service-image .content p {
+.feedback-section .service-card .service-content .service-image .content span {
   color: var(--primary-color2);
   font-family: var(--font-jost);
   font-size: 16px;
@@ -1226,12 +1226,34 @@ p {
   font-weight: 400;
   line-height: 30px;
 }
-.feedback-section .service-card p {
+.feedback-section .service-card .service-content p {
   color: var(--primary-color2);
   font-family: var(--font-jost);
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
-  max-width: 530px;
+  max-width: 510px;
+}
+
+/*--- trusted area--- */
+.trust-section .trust-content span {
+  color: var(--primary-color1);
+  background-color: #E6F6EC;
+  text-align: center;
+  font-family: var(--font-jost);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 5px 20px;
+}
+.trust-section .trust-content h2 {
+  color: var(--text-color);
+  font-family: var(--font-HelveticaNenu);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  padding-top: 10px;
 }/*# sourceMappingURL=style.css.map */
